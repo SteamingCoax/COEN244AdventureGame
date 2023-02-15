@@ -103,7 +103,14 @@ We draw the board as text.
 */
 void Level::draw()
 {
+#ifdef __APPLE__
 	system("clear");
+#endif
+
+#ifdef _WIN64
+	system("CLS");
+#endif
+
 	using namespace std;
 	for (int y = 0; y < lineCount; y++) {
 		for (int x = 0; x < maxLine; x++) {

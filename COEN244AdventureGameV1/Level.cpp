@@ -103,7 +103,7 @@ We draw the board as text.
 */
 void Level::draw()
 {
-	system("CLS");
+	system("clear");
 	using namespace std;
 	for (int y = 0; y < lineCount; y++) {
 		for (int x = 0; x < maxLine; x++) {

@@ -15,7 +15,8 @@ allocate a simple character array. We then read through again, filling in
 the dynamically allocated character array.
 
 */
-Level::Level(std::ifstream& levelFile) {
+
+Level::Level(std::ifstream &levelFile) {
 	using namespace std;
 	string line;
 	int lines = 0;

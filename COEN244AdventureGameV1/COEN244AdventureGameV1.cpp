@@ -2,9 +2,10 @@
 //
 #include <iostream>
 #include <fstream>
-#include "Level.h"
-#include "Item.h"
-#include "Game.h"
+#include "Level.cpp"
+#include "Item.cpp"
+#include "Game.cpp"
+
 
 int main(int argc, char** argv) {
     using namespace std;
@@ -25,7 +26,6 @@ int main(int argc, char** argv) {
          */
 
     Game g;
-
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
